@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: radial-gradient(ellipse at 60% 20%, #e6e0ff 0%, #b993d6 40%, #8ca6db 100%);
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#game {
+    display: inline-block;
+    margin-top: 48px;
+    background: rgba(180, 140, 255, 0.22);
+    padding: 40px 36px 32px 36px;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(120, 80, 180, 0.22), 0 2px 0 0 #e0d6f7;
+    border: 2.5px solid #c3a1e6;
+    backdrop-filter: blur(3px);
+    max-width: 480px;
+}
+#plot {
+    border: 3px solid #a77ff7;
+    background: linear-gradient(135deg, #f8f3ff 0%, #e3e6ff 100%);
+    margin-bottom: 22px;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(120, 80, 180, 0.13);
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#target-info {
+    margin-bottom: 22px;
+    font-size: 1.35em;
+    color: #7c4dff;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-shadow: 0 1px 8px #e0d6f7;
+}
+#feedback {
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    font-size: 1.15em;
+    color: #7c4dff;
+    min-height: 32px;
+    letter-spacing: 0.7px;
+    text-shadow: 0 1px 8px #e0d6f7;
+}
+#check {
+    display: block;
+    margin: 0 auto 18px auto;
+    padding: 12px 36px;
+    font-size: 1.15em;
+    border-radius: 24px;
+    border: none;
+    background: linear-gradient(90deg, #d1c4e9 0%, #a77ff7 60%, #7c4dff 100%);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 16px 0 rgba(120, 80, 180, 0.18);
+    transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+    letter-spacing: 0.7px;
+    outline: none;
+    border: 2px solid #b993d6;
+}
+#check:hover, #check:focus {
+    background: linear-gradient(90deg, #7c4dff 0%, #a77ff7 100%);
+    box-shadow: 0 8px 32px 0 rgba(120, 80, 180, 0.22);
+    transform: scale(1.04);
+}
+#scoreboard {
+    margin: 22px 0 0 0;
+    font-size: 1.18em;
+    color: #7c4dff;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-shadow: 0 1px 8px #e0d6f7;
+}
