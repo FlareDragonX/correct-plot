@@ -5,6 +5,7 @@ const feedback = document.getElementById('feedback');
 const checkBtn = document.getElementById('check');
 const scoreEl = document.getElementById('score');
 const attemptsEl = document.getElementById('attempts');
+// ...existing code...
 
 const size = 400;
 const margin = 40;
@@ -45,8 +46,8 @@ function randomTarget() {
     const eggDiv = document.getElementById('easter-egg');
     eggDiv.innerHTML = '';
     if ((Math.abs(target.x) === 6 && Math.abs(target.y) === 7)) {
-        eggDiv.innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg" alt="Mango" style="height:60px;border-radius:12px;margin:4px;box-shadow:0 2px 8px #a77ff7;">' +
-            '<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Mustard_pot.jpg" alt="Mustard" style="height:60px;border-radius:12px;margin:4px;box-shadow:0 2px 8px #a77ff7;">';
+        eggDiv.innerHTML = '<img src="https://www.dole.com/sites/default/files/styles/1024w768h-80/public/media/2025-01/mangos.png?itok=pS1eZJtK-r6z70DGP" alt="Mango" style="height:60px;border-radius:12px;margin:4px;box-shadow:0 2px 8px #a77ff7;">' +
+            '<img src="https://res.cloudinary.com/kraft-heinz-whats-cooking-ca/image/upload/f_auto/q_auto/r_8/c_limit,w_3840/f_auto/q_auto/v1/dxp-images/heinz/products/00057000036355-yellow-mustard/marketing-view-color-front_content-hub-7898708_fb489b1cf1a7c22fb14246c55f848349?_a=BAVAfVDW0" alt="Mustard" style="height:60px;border-radius:12px;margin:4px;box-shadow:0 2px 8px #a77ff7;">';
     }
 }
 
